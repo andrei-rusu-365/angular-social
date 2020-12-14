@@ -119,6 +119,15 @@
           }
         }
       }
-    }},
-  "defaultProject": "social"
+    }
+  },
+  "defaultProject": "social",
+  "cli": {
+    "analytics": "6c4d298d-4ae5-45b1-b54a-9e9a650ea6c4"
+  },
+  "schematics": {
+    "@schematics/angular:card": {
+      "displayBlock": false
+    }
+  }
 }
