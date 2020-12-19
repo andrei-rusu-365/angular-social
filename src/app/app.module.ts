@@ -9,6 +9,8 @@ import { CardComponent } from './card/card.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
 import { LoginComponent } from './login/login.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -17,14 +19,14 @@ import { LoginComponent } from './login/login.component';
     ContinutComponent,
     CardComponent,
     FormsComponent,
-    LoginComponent
+    LoginComponent,
+    PageNotFoundComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([
-      {path: 'login', component: LoginComponent},
-    ]),
+    RouterModule.forRoot([]),
     ReactiveFormsModule
   ],
   providers: [],
