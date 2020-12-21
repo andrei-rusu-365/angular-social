@@ -11,6 +11,9 @@ import { FormsComponent } from './forms/forms.component';
 import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MainComponent } from './main/main.component';
+import { NameEditorComponent } from './name-editor/name-editor.component';
+import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+import { UserPostDetailsComponent } from './user-post-details/user-post-details.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +24,16 @@ import { MainComponent } from './main/main.component';
     FormsComponent,
     LoginComponent,
     PageNotFoundComponent,
-    MainComponent
+    MainComponent,
+    NameEditorComponent,
+    ProfileEditorComponent,
+    UserPostDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([]),
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
